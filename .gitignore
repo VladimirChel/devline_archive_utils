@@ -1,0 +1,31 @@
+# Source videos and encoded results
+*.[mM][pP]4
+*.[mM][kK][vV]
+*.[mM][oO][vV]
+*.[mM]4[vV]
+
+# Packaged distributions and local third-party tools
+*.[zZ][iI][pP]
+/bin/
+/ffmpeg.exe
+/ffprobe.exe
+
+# Local samples and investigation artifacts
+/*-diagnostics/
+/С субтитрами/
+/MP4-report.md
+
+# Generated output, reports and interrupted work
+Timestamp-CPU/
+Timestamp-GPU/
+.timestamp-*/
+Repair-Mp4-report-*.csv
+*.partial
+
+# Python cache used by local diagnostic tools
+__pycache__/
+*.py[cod]
+
+# Windows Explorer metadata
+Thumbs.db
+Desktop.ini
